@@ -1,0 +1,53 @@
+.body{
+    background-color: black;
+}
+.one{
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 180px;
+    border:orange 5px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:orange;
+    border-radius: 100px;
+
+}
+.two{
+    margin: auto;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 180px;
+    border: #2efff2 5px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2efff2;
+    border-radius: 100px;
+}
+.three{
+    margin: auto;
+    margin-bottom: 10px;
+    height:40px;
+    width: 180px;
+    border: #ff55a7 5px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ff55a7;
+    border-radius: 100px;
+}
+.four{
+    margin: auto;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 180px;
+    border: #ff4040 5px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ff4040;
+    border-radius: 100px;
+}
