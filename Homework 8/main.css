@@ -5,18 +5,20 @@
 }
 .six{
     background: #18467b;
-    height: 100px;
-    width: 50px;
+    height: 200px;
+    width: 100px;
     margin: 20px;
     padding: 60px;
     align-content: center;
     color: white;
-
+    display: flex;
+    align-items: center;
+    juerstify-content: cent;
 
 }
 #widgets{
     background: #246abc;
-    width: 400px;
+    width: 550px;
     height: 50px;
     padding: 100px;
     margin: auto;
@@ -26,10 +28,11 @@
 }
 #contacts{
     background: #246abc;
-    width: 400px;
+    width: 550px;
     height: 200px;
     padding: 100px;
     margin: auto;
     text-align: center;
     color: white;
+    ;
 }
