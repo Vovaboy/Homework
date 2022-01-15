@@ -1,0 +1,29 @@
+.a{
+    height: 300px;
+    width: 100%;
+    background: #2efff2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.b{
+    background: silver;
+    width: 400px;
+    width: 69%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.c {
+    height: 400px;
+    width: 30%;
+    background: #ff55a7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.conteiner{
+    display: flex;
+}
