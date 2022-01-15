@@ -1,0 +1,28 @@
+#header{
+    background: #e6f7b1;
+    width: 300px;
+    height: 100px;
+    ;
+}
+#menu {
+    background: aqua;
+    width: 100px;
+    height: 200px;
+}
+#menu>div.a {
+    width: 200px;
+    height: 100px;
+    background: black;
+    margin-left: 100px;
+}
+#footer {
+    background: #6aba67;
+    width: 300px;
+    height: 100px;
+}
+#menu>div.b{
+    width: 200px;
+    height: 100px;
+    background: #424242;
+    margin-left: 100px;
+}
