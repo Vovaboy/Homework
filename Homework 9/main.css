@@ -1,0 +1,40 @@
+#one{
+    width: 1500px;
+    height: 100px;
+    background: #0e66a8;
+    color: white;
+    text-align: center;
+}
+#two{
+    width: 1500px;
+    height: 100px;
+    background: #144c79;
+    color: white;
+    text-align: center;
+}
+#three{
+   display: flex;
+}
+.a{
+    width: 1000px;
+    height: 300px;
+    background: #18a3c5;
+    color: white;
+    text-align: center;
+
+}
+.b{
+    width: 500px;
+    height: 300px;
+    background: #5376ae;
+    color: white;
+    text-align: center;
+}
+#foure{
+    width: 1500px;
+    height: 100px;
+    background: #7dcce3;
+    color: white;
+    text-align: center;
+
+}
