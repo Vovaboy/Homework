@@ -1,0 +1,37 @@
+.product {
+    width: 200px;
+    height: 100px;
+    background: silver;
+    margin: 50px;
+
+
+
+
+
+}
+.product>h3{
+    color: orange;
+    text-align: center;
+}
+#conteiner{
+display: flex;
+    justify-content: center;
+
+}
+.inner-box{
+    display: flex;
+}
+.product>p{
+    text-align: center;
+}
+.product>div>p{
+    text-align: justify;
+   box-sizing: border-box;
+    padding-right: 10px;
+}
+#conteiner-1{
+    display: flex;
+}
+#conteiner-2{
+    display: flex;
+}

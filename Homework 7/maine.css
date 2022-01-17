@@ -1,5 +1,5 @@
 #hader{
-    width: 500px;
+    width: 410px;
     height: 100px;
     background: orange;
 }
@@ -8,9 +8,10 @@
     background: #892727;
     width: 200px;
     height: 332px;
-    margin-right: 100px;
+    margin-right:10px ;
     margin-top: 10px;
     margin-bottom: 10px;
+
 }
 .post{
     width: 200px;
@@ -22,7 +23,7 @@
 
 }
 #footer{
-    width: 500px;
+    width: 410px;
     height: 100px;
     background: #18a3c5;
 }
