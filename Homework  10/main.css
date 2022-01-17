@@ -1,10 +1,11 @@
-.right{
+.right {
     height: 200px;
     width: 100px;
     background: silver;
     border: 2px solid black;
 }
-.C, .D, .E{
+
+.C, .D, .E {
     height: 100px;
     width: 98px;
     background: silver;
@@ -15,13 +16,16 @@
     justify-content: center;
 
 }
-#left-bottom{
+
+#left-bottom {
     display: flex;
 }
-#bottom{
+
+#bottom {
     display: flex;
 }
-.top{
+
+.top {
     width: 455px;
     height: 150px;
     background: silver;
@@ -31,7 +35,8 @@
     align-items: center;
     justify-content: center;
 }
-.left-top{
+
+.left-top {
     width: 310px;
     height: 150px;
     background: silver;
@@ -41,7 +46,8 @@
     align-items: center;
     justify-content: center;
 }
-.f{
+
+.f {
     width: 140px;
     height: 257px;
     background: silver;
