@@ -9,6 +9,11 @@
     width: 98px;
     background: silver;
     border: 2px solid black;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 #left-bottom{
     display: flex;
@@ -17,22 +22,33 @@
     display: flex;
 }
 .top{
-    width: 450px;
+    width: 455px;
     height: 150px;
     background: silver;
     border: 2px solid black;
+    margin-bottom: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .left-top{
-    width: 302px;
+    width: 310px;
     height: 150px;
     background: silver;
     border: 2px solid black;
+    margin: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .f{
-    width: 150px;
-    height: 255px;
+    width: 140px;
+    height: 257px;
     background: silver;
     border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 
 }
