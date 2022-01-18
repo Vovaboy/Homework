@@ -1,5 +1,5 @@
 .container-1{
-    width : 300px;
+    width : 909px;
     height: 200px;
     background-color: silver;
     border: 2px solid black;
@@ -10,14 +10,14 @@
     display: flex;
 
 }
-.conteiner-3{
+.container-3{
     display: flex;
-    flex-wrap: wrap;
-}
+    flex-wrap: wrap;}
+
 .b, .c, .d, .e, .f, .g{
     background-color: silver;
-    width: 397px;
-    height: 280px;
+    width: 300px;
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
