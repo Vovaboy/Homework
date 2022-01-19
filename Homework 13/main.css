@@ -1,0 +1,58 @@
+.wrap{
+    width: 2000px;
+    border: 2px solid red;
+    height: 1000px;
+}
+
+
+.top{
+    width: 500px;
+    height: 50px;
+    border: 3px solid black;
+    display: flex;
+
+}
+.left{
+    width: 20%;
+    height: 897px;
+    border: 3px solid black;
+    margin-top: 20%;
+
+}
+.right{
+    width: 400px;
+    height: 870px;
+    border: 3px solid black;
+    margin-top: 20%;
+}
+
+.three{
+    width: 395px;
+    height: 200px;
+    border: 3px solid black;
+}
+.four{
+    width: 395px;
+    height: 100px;
+    border: 3px solid black;
+}
+.wrap-2{
+display: flex;
+}
+.five{
+    width: 400px;
+    height: 450px;
+    border: 3px solid black;
+
+}
+.six{
+    width: 100px;
+    height: 450px;
+    border: 3px solid black;
+
+}
+.botom{
+    width: 395px;
+    height: 100px;
+    border: 3px solid black;
+}
