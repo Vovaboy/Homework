@@ -1,0 +1,90 @@
+.wrap{
+    display: flex;
+
+}
+
+.logo{
+    width: 80px;
+    height: 50px;
+    background: #686868;
+}
+.header {
+    width: 400px;
+    height: 50px;
+    background: #686868;
+    margin-left: 10px;
+
+
+
+
+}
+
+.nav{
+    width: 70px;
+    height: 400px;
+    background: #686868;
+    margin-top: 70px;
+}
+.store{
+    width: 70px;
+    height: 50px;
+    background: #686868;
+    margin-top: 10px;
+
+}
+.tools{
+    width: 70px;
+    height: 50px;
+    background: #686868;
+    margin-top: 10px;
+
+}
+.intro{
+    width: 300px;
+    height: 100px;
+    background: #686868;
+}
+.ad{
+    width: 80px;
+    height: 100px;
+    background: #686868;
+    margin-left: 20px;
+
+}
+
+.types{
+    width: 300px;
+    height: 390px;
+    background: #686868;
+}
+.related{
+    width: 80px;
+    height: 390px;
+    background: #686868;;
+    margin-left: 20px;
+}
+.wrap_2{
+    display: flex;
+    margin-top: 70px;
+
+}
+.wrap_3{
+    display: flex;
+    margin-top: 10px;
+}
+.footer{
+    width: 500px;
+    height: 80px;
+    background: #686868;
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 400px) {
+
+.store{
+    display: none;
+}
+    .tools{
+        display: none;
+    }
+}

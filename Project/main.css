@@ -8,7 +8,7 @@
     --blue-color:#0B2330 ;
 }
 .wraper{
-    max-width: 1372px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -220,5 +220,51 @@ position: absolute;
     height: 528px;
     margin-left: 265px;
 }
+.start_btn{
+    width: 163px;
+    height: 54px;
+    background-color: #F9C600;
+    border: 1px solid #F9C600;
+    box-sizing: border-box;
+    border-radius: 4px;
+ margin: 113px 638px 160px 638px;
+
+}
+
+.user{
+    width: 1260px;
+    height: 537px;
+    background-color: #be79f0;
+    margin-left: 148px;
+    position: absolute;
+    display: flex;
+;
+}
+.user_img{
+position: relative;
+    right: 100px;
+    margin-top: 100px;
+
+}
+.user_title{
+    width: 485px;
+    height: 192px;
+    margin-top: 103px;
+
+}
+.user_p{
+    width: 550px;
+    height: 68px;
+}
+.user_title_h2{
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 48px;
+}
+.user_p_p{
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 28px;
+
 
 }
