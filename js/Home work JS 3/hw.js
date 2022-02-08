@@ -53,7 +53,68 @@
 //     console.log(string[i])
 // }
 // - Створити масив з 10 елементів будь-якого типу. Вивести в консоль всі його елементи в циклі.
-
+// let x = [ 22, '44', true, 55, false, 'string', 44, 'Okten',];
+// for (i = 0 ; i < x.length; i++){
+//     console.log(x[i])
+// }
 // - Створити масив з 10 елементів числового, стірчкового і булевого типу. За допомогою if та typeof вивести тільки булеві елементи
+// let x =[22, '44', true, 55, false, 'string', 44, 'Okten',]
+// for (i = 0 ; i < x.length; i++){
+//     if (typeof x[i] === 'boolean') {
+//                 console.log(x[i]);
+//             }
+// }
+
 // - Створити масив з 10 елементів числового, стірчкового і булевого типу. За допомогою if та typeof вивести тільки числові елементи
+// let x =[22, '44', true, 55, false, 'string', 44, 'Okten',]
+// for (i = 0 ; i < x.length; i++){
+//     if (typeof x[i] === 'number') {
+//         console.log(x[i]);
+//     }
+// }
 // - Створити масив з 10 елементів числового, стрічкового і булевого типу. За допомогою if та typeof вивести тільки рядкові елементи
+// let x =[22, '44', true, 55, false, 'string', 44, 'Okten',]
+// for (i = 0 ; i < x.length; i++){
+//     if (typeof x[i] === 'string') {
+//         console.log(x[i]);
+//     }
+// }
+// - Створити порожній масив. Наповнити його 10 елементами (різними за типами) через звернення до конкретних індексів. Вивести в консоль всі його елементи в циклі.
+// let x = [];
+// x [0] = 22;
+// x [1] ='44';
+// x [2] = true;
+// x [3] = 55;
+// x [4] = false;
+// x [5] = 'string';
+// x [6] = 44;
+// x [7] = 'Okten';
+// x [8] = true;
+// x [9] = 65;
+// x [10] = 'Vasya';
+// for (let i = 0; i < x.length; i++ ){
+//     console.log(x[i])
+// }
+
+// - Створити цикл for на 10  ітерацій з кроком 1. Вивести поточний номер кроку через console.log та document.write
+// for (let i =0; i < 10; i++) {
+// console.log(  + i + ' ')
+//     document.write(+ i + '')
+// }
+// - Створити цикл for на 100 ітерацій з кроком 1. Вивести поточний номер кроку через console.log та document.write
+// for (let i=0; i < 100;i++){
+//     console.log(+ i+ '')
+//     document.write(+ i + '')}
+// - Створити цикл for на 100 ітерацій з кроком 2. Вивести поточний номер кроку через console.log та document.write
+// for (let i=0; i < 100;i+=2){
+//     console.log( i +'')
+//     document.write( i + '')}
+// - Створити цикл for на 100 ітерацій. Вивести тільки парні кроки. через console.log + document.write
+// for (let i=0; i < 100;i+=2) {
+//     console.log( i +'')
+//     document.write( i + '')}
+// - Створити цикл for на 100 ітерацій. Вивести тільки непарні кроки. через console.log + document.write
+// for (let i=0; i < 100;i++)
+//  if(i % 2 === 1){
+//     console.log( i +'')
+//     document.write( i + '')}
