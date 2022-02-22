@@ -1,5 +1,5 @@
 // - Дано список імен.
-//     let n1 = 'Harry..Potter'
+// let n1 = 'Harry..Potter'
 // let n2 = 'Ron---Whisley'
 // let n3 = 'Hermione__Granger'
 // Написати функцію, яка приймає будь яке не валідне імя, та нормалізує його в наступнйи вигляд
@@ -7,7 +7,7 @@
 // let n2 = 'Ron Whisley'
 // let n3 = 'Hermione Granger'
 
-//      let name = (string, symbol) => {
+// let name = (string, symbol) => {
 //     let arr = [];
 //     if (string.includes(symbol)) {
 //         let a = string.split(symbol)
@@ -22,13 +22,12 @@
 // name (n1,'.')
 // name (n2, '-')
 // name (n3,'_')
- //
- // let  arr = (text,num) =>{
- //    document.write(`<ul>`)
- //    for(let i = 0; i < num; i++){
- //    document.write(`<li>${text}</li>`)}
- //    document.write(`</ul>`)
 
+// let  arr = (text,num) =>{
+//    document.write(`<ul>`)
+//    for(let i = 0; i < num; i++){
+//    document.write(`<li>${text}</li>`)}
+//    document.write(`</ul>`)}
 
 //     - створити функцію, яка генерує масив рандомних числових цілих значень в діапазоні від 0 до 100.
 // let random = (length, num ) => {

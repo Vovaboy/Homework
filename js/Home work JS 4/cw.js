@@ -115,14 +115,14 @@
 // }
 // document.write(randomNum(1,100))
 // - Функція приймає масив та робить з нього новий масив в зворотньому порядку. [1,2,3] -> [3, 2, 1].
-let mas = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-
-function reverseArray(arr) {
-    const newArr = [];
-    for (let i = 0; i < arr.length; i++) {
-        newArr[i] = arr[arr.length - i - 1];
-    }
-    return newArr;
-}
-
-console.log(reverseArray(mas));
+// let mas = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+//
+// function reverseArray(arr) {
+//     const newArr = [];
+//     for (let i = 0; i < arr.length; i++) {
+//         newArr[i] = arr[arr.length - i - 1];
+//     }
+//     return newArr;
+// }
+//
+// console.log(reverseArray(mas));

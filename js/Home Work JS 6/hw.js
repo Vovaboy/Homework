@@ -52,7 +52,7 @@
 //     let str = 'Каждый охотник желает знать';
 //     let arr = string(str);
 //     console.log(arr);
-//
+
 
 // - Напишіть функцію delete_characters(str, length), яка повертає підрядок, що складається із зазначеної кількості символів.
 // let delete_characters = (str, length) => {
