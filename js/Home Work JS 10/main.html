@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        .menu ul {
+            margin: 0;
+            list-style: none;
+            padding-left: 20px;
+            display: none;
+        }
+
+        .menu .title {
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        .menu .title::before {
+            content: '▶ ';
+            font-size: 80%;
+            color: green;
+        }
+
+        .menu.open .title::before {
+            content: '▼ ';
+        }
+
+        .menu.open ul {
+            display: block;
+        }
+
+        * {
+            margin: 5px;
+        }
+
+        .menu {
+            cursor: pointer;
+        }
+
+        .menu.hidden ul {
+            display: none;
+        }
+
+        .pHidden {
+            display: none;
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+
+<div id="text"><h1>TEXT</h1></div>
+<button id="button">Cleck me</button>
+
+<input type="text" id="age">
+
+
+<div id="sweeties" class="menu">
+    <span class="title">Сладости (натисни на мене )!</span>
+    <ul>
+        <li>Пирожено</li>
+        <li>Пончик</li>
+        <li>Млинці</li>
+    </ul>
+
+</div>
+
+
+<script src="hw.js"></script>
+</body>
+</html>
