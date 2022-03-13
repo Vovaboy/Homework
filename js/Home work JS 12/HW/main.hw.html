@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+        }
+
+        .wraper {
+            width: 1200px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .post {
+            width: 220px;
+            height: 260px;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid darkgrey;
+            border-radius: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            cursor: pointer;
+            box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+        }
+
+        .post:hover {
+            background: #d8e4ef;
+            transition: .3s;
+            transform: rotateY(10grad);
+        }
+
+        .post h3 {
+            margin: 0;
+        }
+
+        .post h4 {
+            height: 50px;
+        }
+
+        .comment {
+            width: 220px;
+            height: 260px;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid darkgrey;
+            border-radius: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            cursor: pointer;
+            box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+        }
+
+        .comment:hover {
+            background: #d8e4ef;
+            transition: .3s;
+            transform: rotateY(10grad);
+        }
+
+        .comment h3 {
+            margin: 0;
+        }
+
+        .comment h4 {
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+<script src="hw.js"></script>
+</body>
+</html>

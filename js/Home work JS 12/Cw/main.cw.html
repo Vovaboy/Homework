@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+        }
+
+        .wraper {
+            width: 1200px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            width: 240px;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid darkgrey;
+            border-radius: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            cursor: pointer;
+            box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+        }
+
+        .card:hover {
+            background: #fcf3f3;
+            transition: .3s;
+            transform: rotateY(2grad);
+        }
+
+        .card h3 {
+            margin: 0;
+        }
+
+        .card h4 {
+            height: 50px;
+        }
+
+        .card h5 {
+            height: 90px;
+        }
+
+
+        .cardComments {
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid darkgrey;
+            border-radius: 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+        }
+
+        .cardComments:hover {
+            background: #cac6c6;
+            transition: .3s;
+            transform: rotateY(2grad);
+        }
+
+        .cardComments h3 {
+            margin: 5px;
+        }
+
+        .cardComments h4 {
+            margin: 5px;
+        }
+
+        .cardComments h5 {
+            margin: 0;
+            height: 40px;
+        }
+
+        .cardComments h6 {
+            margin: 0;
+        }
+    </style>
+
+</head>
+<body>
+
+
+<script src="cw.js"></script>
+</body>
+</html>
