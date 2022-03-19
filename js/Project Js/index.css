@@ -1,0 +1,31 @@
+
+body {
+    background: cornflowerblue;
+    margin: 0;
+}
+
+.mainContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+}
+
+.userBox {
+    width: 45%;
+    background: aliceblue;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.link {
+    color: cornflowerblue;
+    font-weight: bold;
+    font-size: large;
+}
+
+.link:hover {
+    color: darkblue;
+}

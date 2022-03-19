@@ -1,0 +1,65 @@
+
+.usersContainer {
+    background: lightseagreen;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+}
+
+.userInfoBox {
+    background: lightcyan;
+    width: 100%;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnPosts, .btnBack {
+    margin: 20px;
+    background: lightcyan;
+    border-radius: 10px;
+    border: none;
+    width: 90%;
+    height: 60px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.btnPosts:hover, .btnBack:hover {
+    background: #b25dea;
+    color: white;
+}
+
+.postsBox {
+    background: lightcyan;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.postCard {
+    width: 18%;
+    padding: 20px;
+    box-sizing: border-box;
+    border-left: 1px solid #b25dea;
+    margin-bottom: 20px;
+}
+
+.btnPostDetails {
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 20px;
+    font-weight: bold;
+    background: #b25dea;
+    color: white;
+}
+
+.btnPostDetails:hover {
+    background: lightseagreen;
+    color: black;
+}
